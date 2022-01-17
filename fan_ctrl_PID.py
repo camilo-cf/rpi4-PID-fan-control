@@ -30,6 +30,7 @@ dt = WAIT_TIME
 
 # Fucntions
 def get_temperature():
+    """Function to read CPU temperature"""
     cpuTempFile = open("/sys/class/thermal/thermal_zone0/temp", "r")
     cpuTemp = float(cpuTempFile.read()) / 1000
     cpuTempFile.close()
