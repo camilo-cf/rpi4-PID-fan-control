@@ -10,3 +10,9 @@
   sudo apt install python3-rpi.gpio
   sudo apt install python3-numpy
 ```
+In case of issues ubuntu 64 bits
+https://github.com/gpiozero/gpiozero/issues/837#issuecomment-703743142
+```
+  cd /dev
+  chmod og+rwx gpio*
+```
