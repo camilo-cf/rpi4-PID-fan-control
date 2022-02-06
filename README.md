@@ -5,3 +5,8 @@
 - The PID was manually tunned 
 - The process starts automatically with a crontab job (on @reboot)
 
+## Don't forget to install
+```
+  sudo apt install python3-rpi.gpio
+  sudo apt install python3-numpy
+```
